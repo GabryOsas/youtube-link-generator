@@ -11,7 +11,8 @@ public class Main {
         final int seconds = TimeUtils.toMinutes(37, 4);
         System.out.print( new YoutubeLink("xk4_1vDrzzo")
                 .quality(Quality.SMALL)
-                .loop().subtitle()
+                .loop()
+                .subtitle()
                 .subtitleLang(SubLanguage.IT)
                 .volume(50)
                 .seconds(seconds)
